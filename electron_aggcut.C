@@ -16,7 +16,7 @@ Outputs:
 
 R__LOAD_LIBRARY(libeicqa_modules.so)
 
-void eres_aggcut()
+void electron_aggcut()
 {
   TFile *f1 = new TFile("Eval_CEMC.root","READ");
   TFile *f2 = new TFile("Eval_FEMC.root","READ");
