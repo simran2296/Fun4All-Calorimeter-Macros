@@ -1,3 +1,14 @@
+/*
+Macro: Energy resolution for electrons
+Calorimeters: CEMC, FEMC, EEMC
+To run: root -l electron_aggcut.C
+Outputs: 
+1. Electron_calorimeter_plots.root
+2. Sigma vs generated energy plot: resolution_CEMC.gif, resolution_FEMC.gif, resolution_EEMC.gif
+3. Fitted slices for sigma: create directories to save - slices_CEMC, slices_FEMC, slices_EEMC
+
+*/
+
 #include <eicqa_modules/EvalRootTTree.h>
 #include <eicqa_modules/EvalHit.h>
 #include "TMath.h"
